@@ -31,15 +31,15 @@ void draw() {
   } 
 } 
 void keyPressed() {
- if(key == 'a') x[7] -= 10;
+  if(key == 'a') x[7] -= 10;
  else if(key == 'd') x[7] += 10;
  else if(key == 'w') y[7] -= 10;
  else if(key == 's') y[7] += 10;
  
- /*if ( key == CODED){
-    if ( keyCode == UP) y =5;
-    else if ( keyCode == DOWN ) y += 5;
-    else if ( keyCode == LEFT)  x -= 5 ;
-    else if ( keyCode == RIGHT)  x += 5 ;
-}*/
+if ( key == CODED){
+    if ( keyCode == UP) y[7] -=5;
+    else if ( keyCode == DOWN ) y[7] += 5;
+    else if ( keyCode == LEFT)  x[7] -= 5 ;
+    else if ( keyCode == RIGHT)  x[7] += 5 ;
+}
 }
